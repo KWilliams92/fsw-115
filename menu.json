@@ -1,0 +1,69 @@
+{
+    "appetizers": [
+        {"name":"Chicken Noodle Soup", 
+        "description": "Hot delicious soup, perfect for a rainy day.",
+        "ingredients": ["chicken broth, egg noodles, celery, carrots"] 
+        },
+        {"name": "Hummus and Pita", 
+        "ingredients": ["hummus: chickpeas, lemon, tahini"], 
+        "description": "Hummus and pita made fresh everyday."
+        },
+        {"name": "Garlic Parmesan Fries", 
+        "ingredients": ["thick sliced russett potatoes, garlic, parmesan cheese"], 
+        "description": "The best fries on the planet!"
+        }
+    ],
+    "coldSandwiches":[
+    {"name": "Spicy Italian", 
+    "ingredients": ["pepperoni, genoa salami, ham, hot peppers, vinigarette, onions, tomato"], 
+    "description": "Thin sliced italian deli meats on fresh baked garlic pepper bread."
+    },
+    {"name": "Black Forest Ham", 
+    "ingredients": ["black forest ham, onion, tomato, mayo, mustard"], 
+    "description": "Our signature black forest ham, thinly sliced on your choice of bread."
+    },
+    {"name": "Chicken Salad Sandwich", 
+    "ingredients": ["shredded chicken breast, celery, green onions, almonds, grapes, avocado, mayo"], 
+    "description": "Satisfying chicken salad on sourdough bread."
+    }
+    ],
+    "hotSandwiches":[
+        {"name": "Ham and Cheese", 
+        "ingredients": ["black forest ham, chedder cheese"], 
+        "description": "Hot ham and cheese on texas toast."
+        },
+        {"name": "Philly Cheesesteak", 
+        "ingredients": ["thin sliced steak, onions, cheez whiz or provolone cheese"], 
+        "description": "Choose from our classic philly cheese, or switch it up with provolone."},
+        {"name": "Italian Beef with Au Ju", 
+        "ingredients": ["thin sliced steak, sweet peppers, spicy giardiniera"], 
+        "description": "Sweet and spicy italian beef with Au Ju sauce"}
+    ],
+    "desserts":[
+    {"name": "Chocolate Chip Cookie", 
+    "ingredients": ["hershey's chocolate chips, sugar, eggs, vanilla extract, flour, butter"],
+    "description": "Ooey, gooey, warm chocolate chip cookies."
+    },
+    {"name": "Slice of NY Style Cheesecake", 
+    "ingredients": ["graham crackers, butter, sugar, cream cheese, vanilla extract, salt"],
+    "description": "Cheesecake that tastes like it came from the Big City!"
+    },
+    {"name": "Slice of Chocolate Cake", 
+    "ingredients": ["sugar, baking powder, flour, cocoa powder, baking soda, salt, eggs, milk, vegetable oil, vanilla extract, chocolate icing"],
+    "description": "Super sweet chocolate cake. The more chocolate, the better."
+    }
+    ],
+    "drinks":[
+    {"name": "Mango Smoothie", 
+    "ingredients": ["mangoes, yogurt, pineapple juice"],
+    "description": "Perfect blend of mango and pineapple in smoothie form."
+    },
+    {"name": "Fountain Drink", 
+    "ingredients": ["dr.pepper, moutain dew, water, sprite, coke"],
+    "description": "Soda or Water"
+    },
+    {"name": "Lemonade", 
+    "ingredients": ["fresh squeezed lemons, sugar, water"],
+    "description": "freshly made lemonade."
+    }]
+}
