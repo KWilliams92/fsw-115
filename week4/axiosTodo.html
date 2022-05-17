@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta charset="UTF-8">
+       <title>Axios ToDo List</title>
+       <link rel="stylesheet" href="axiosTodo.css">
+
+    </head>
+
+    <body>
+        <h1>AXIOS TO DO LIST</h1>
+            <h3>Part 1</h3>
+        <form id="toDo">
+            <label>Things To Be Done</label>
+            <input type="text" id="toDoText">
+
+            <button type="button" onclick="createToDo()" id="post">Post</button>
+        </form>
+
+        <ul id="postItem"></ul>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+        <script src="axiosTodo.js"></script>
+    </body>
+</html>
