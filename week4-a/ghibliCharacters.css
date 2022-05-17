@@ -1,0 +1,9 @@
+body {
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Studio_Ghibli_logo.svg/1200px-Studio_Ghibli_logo.svg.png');
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: auto;
+    align-items: left;
+    text-align: center;
+    color: mediumblue;
+};
