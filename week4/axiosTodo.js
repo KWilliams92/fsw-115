@@ -1,21 +1,30 @@
-axios.get('http://api.bryanuniversity.edu/kiaraHightower/list')
+axios.get('http://api.bryanuniversity.edu/kh/list')
 
-    .then(response => {
-        for(let i = 0; i < response.data.length; i++){
-            var text = document.createElement('h1')
-            h1.textContent = response.data[i].value
-                document.body.appendChild(text)
-        }
-    })
+    .then(resp => {
+        resp.data.forEach(function(e, i){
+            var des = document.createElement('li')
+            document.body.querySelector('#toDos').appendChild(des)
 
-        .catch(error => console.log(error))
+            des.textContent = resp.data[i].description
 
+                des.addEventListener('click', function(){
+                    des.style.textDecoration = 'line-through'
+                })
+        })
+})
 
-    function createToDo(){
-        var listItem = document.querySelector('#toDoText').value
-        var itemName = document.createTextNode(listItem)
-        var newItem = document.createElement('li')
-            newItem.appendChild(itemName)
-            
-            document.querySelector('#postItem').appendChild(newItem)
-    }
+.catch(err => console.log(err))
+
+function createToDo(){
+    var listItem = document.querySelector('#toDoText').value
+    var itemName = document.createTextNode(listItem)
+    var newItem = document.createElement('li')
+        newItem.appendChild(itemName)
+
+        newItem.addEventListener('click', function(){
+            newItem.style.textDecoration = 'line-through'
+        })
+
+    document.body.querySelector('#toDos').appendChild(newItem)
+}
+

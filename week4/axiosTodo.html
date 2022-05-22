@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
    <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
        <title>Axios ToDo List</title>
        <link rel="stylesheet" href="axiosTodo.css">
 
@@ -12,12 +14,14 @@
             <h3>Part 1</h3>
         <form id="toDo">
             <label>Things To Be Done</label>
-            <input type="text" id="toDoText">
+            <br><input type="text" id="toDoText" size="50" placeholder="Add Here">
+            </form>
+            
+            <br><div id="btn">
+                <button type="button" onclick="createToDo()" id="post">Post</button>
+                </div>
 
-            <button type="button" onclick="createToDo()" id="post">Post</button>
-        </form>
-
-        <ul id="postItem"></ul>
+           <br><div id="toDos"></div>
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
         <script src="axiosTodo.js"></script>
