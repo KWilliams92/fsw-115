@@ -1,0 +1,62 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(blue, green, yellow);
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
+    font-display: black;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+label {
+    color: greenyellow;
+    font-weight: bold;
+}
+
+.postItem {
+    text-align: center;
+}
+
+li {
+    font-size: larger;
+    font-weight: lighter;
+}
+li:active {
+    color: white;
+}
+
+button {
+    background-color: yellowgreen;
+    border-radius: 2px;
+    border: none;
+    color: blue;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: medium;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+button:hover {
+    color: blueviolet;
+}
+button:active {
+    color: white;
+}
+
+input {
+    text-align: center;
+    display: inline-block;
+}
+
+#toDos button {
+    padding: 2px 2px;
+}
